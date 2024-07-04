@@ -1,0 +1,77 @@
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #0d0d0d;
+    color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movesContainer{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.compMove > p, .myMove > p{
+    text-align: center;
+    justify-self: center;
+}
+.resultDisplay {
+    margin: 0 32px;
+}
+.movesContainer img {
+    height: 200px;
+    width: 200px;
+}
+.scoreContainer{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    display: block;
+}
+.scoreContainer p {
+    margin: 0 auto;
+}
+.buttonContainer{
+    position: fixed;
+    bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonContainer button{
+    margin: 0 16px;
+    cursor: pointer;
+}
+.moveButton{
+    background: transparent;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #F2F2F2;
+}
+.moveButton img {
+    height: 50px;
+    width: 50px;
+}
+.resetButton, .autoPlayBtn{
+    margin-top: 8px;
+    height: 36px;
+    width: 120px;
+    background: #0d0d0d;
+    border: 2px solid #F2F2F2;
+    border-radius: 18px;
+    color: #F2F2F2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.autoPlayBtn {
+    position: fixed;
+    bottom: 25px;
+}
